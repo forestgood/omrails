@@ -2,17 +2,49 @@
         <h1>Welcome user, let's get started!</h1>
         <% else %>
 <div class="center hero-unit">
-    <h1>Welcome to gallant gent</h1>
+   <h1>Welcome to chivlry</h1>
+        <h2>
+       Where ordinary men become extraordinary 
+       <br>
+       <br>
+        <%= link_to "Sign up",new_user_registration_path, 
+                                 class: "btn btn-large btn-primary" %>
+       <br>
 
-    <h2>
-      Where ordinary men become extraordinary
-    </h2>
-    <%= image_tag ("Gentlogo.png"), class: 'first-four' %> </br>
-</br>
 
-    <%= link_to "Sign up now!",new_user_registration_path, 
-                                class: "btn btn-large btn-primary" %>                            
+                                        
 </div>
 
 
+<hr>
+
+<div class="row" style="padding-bottom:26px">
+<center><h3>What makes a true gentleman?</h3></center>
+</div><!-- row -->
+
+<div class="row">
+
+  <div class="span4">
+    <center><img src="/assets/Philanthropy.png" class="img-circle" alt="">
+      <h4>Courtesy</h4>
+      <p>From opening doors for ladies to getting your philanthropy on</p>
+    </center>
+  </div><!-- span -->
+
+  <div class="span4">
+    <center><img src="/assets/lightbulb.png" class="img-circle" alt="">
+      <h4>Courage</h4>
+      <p>Accepting risk of failure for passion, stopping at nothing to succeed</p>
+    </center>
+  </div><!-- span -->
+
+  <div class="span4">
+    <center><img src="/assets/Person.png" class="img-circle" alt="">
+      <h4>Charisma</h4>
+      <p>Inspiration to others through charm, style, and talent</p>
+    </center>
+  </div><!-- span -->
+
+</div><!-- row -->
+<hr>
  <% end %>
