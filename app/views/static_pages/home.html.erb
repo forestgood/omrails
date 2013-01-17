@@ -4,63 +4,65 @@
 <div class="center hero-unit">
    <h1>Welcome to HackHands</h1>
         <h2>
-      A community of hacking hands to help you hack your passion
+      A community of hacking hands to help hack your passion
         </h2>
-       <br>
-       <br>
-        <%= link_to "Sign up",new_user_registration_path, 
-                                 class: "btn btn-large btn-primary" %>
-       <br>
 
-
-                                        
+  <left><img src="/assets/lendhand.svg"  alt="">       
+  <left><img src="/assets/heartcodelogo.png" class="logo" alt="">  
+  <left><img src="/assets/lendhand.svg"  alt="">
+ 
+                                      
 </div>
 
 
 <hr>
-
+<br>
 <div class="row" style="padding-bottom:26px">
-<center><h3>Hacking Passion</h3></center>
+<center><%= link_to "Hack Your Passion",new_user_registration_path, 
+                                 class: "btn btn-large btn-primary" %>
+</center>
+       <br>
 </br>
 </div><!-- row -->
-
-
 
 <div class="row">
 
         <div class="span4">
     <center><img src="/assets/heartless.svg" alt="">
       <h4>If(passion != true){</h4>
-      <p>Sign up and post the skills you are looking to learn</p>
+      <p>Post the skills you need to build out your passion</p>
     </center>
   </div><!-- span -->
 
   <div class="span4">
-<center><img src="/assets/learn.svg" alt="">
+<center><img src="/assets/class.svg" alt="">
       <h4>learn(tech,design);</h4>
       <p>Get alerts and scholarship offers for classes</p>
-      <p>Find others that have similar passions and skills</p>
-      </center>
+        </center>
   </div><!-- span -->
 
         <div class="span4">
     <center><img src="/assets/heart.svg" alt="">
       <h4>hack(passion);}</h4>
-      <p>Share progress of your passion project</p>
-      <p>Help others learn the skills you learned</p>
+      <p>Build out your passion and share with others</p>
     </center>
   </div><!-- span -->
+
 
 </div>
 
 
+
+
 <hr>
+<br>
 
 <div class="row" style="padding-bottom:26px">
-<center><h3>Lend a Hand</h3></center>
+<center><%= link_to "Lend a Hand",shop_path, 
+                                 class: "btn btn-large btn-primary" %>
+</center>
 </br>
 </div><!-- row -->
-
 
 
 <div class="row">
@@ -69,7 +71,7 @@
 
     <center><img src="/assets/shopbag.svg" alt=""> 
       <h4>Shop Products</h4>
-      <p>Proceeds from all purchases are donated towards passion project scholarships</p>
+      <p>% of proceeds go towards scholarships</p>
 
     </center>
   </div><!-- span -->
@@ -77,8 +79,7 @@
   <div class="span4">
   <center><img src="/assets/tweet.svg" alt="">
       <h4>TweetTrace</h4>
-      <p>Tell others that you just lent a hand by tweeting your unique #tag i.e. </br>
-        "I just lent a @hackhand to #[insertTag] so they can #hackpassion"</p>
+      <p>See where your contribution went through twitter<p>
   
     </center>
   </div><!-- span -->
@@ -86,9 +87,10 @@
         <div class="span4">
     <center><img src="/assets/progress.svg" alt="">
       <h4>Learn about what was learned</h4>
-      <p>See where your contribution went from those who received your scholarship through twitter channel and hackhands</p>
+      <p>Get updates on passion projects you supported</p>
     </center>
   </div><!-- span -->
+
 
 
 <hr>
