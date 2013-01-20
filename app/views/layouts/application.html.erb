@@ -34,5 +34,20 @@
             <% end %>
             <%= yield %>
         </div>
+
+    <footer class="footer">
+        <small>
+          <a href="http://hackhacks.com/">HackHands</a>
+        </small>
+
+    
+        <nav>
+          <ul>
+              <li><%= link_to "About", about_path %></li>
+              <li><%= link_to "Shop",  shop_path  %></li>
+              <li><a href="http://blog.hackhands.com/">Blog</a>
+          </ul>
+        </nav>
+
     </body>
 </html>
