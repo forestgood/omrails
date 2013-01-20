@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
 
   def shop
   end
+
+  def classes
+  end
 end

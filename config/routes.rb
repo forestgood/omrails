@@ -5,6 +5,7 @@ Omrails::Application.routes.draw do
 	  root :to => 'static_pages#home'
   match "about" => "static_pages#about"
   match "shop" => "static_pages#shop"
+  match "classes" => "static_pages#classes"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

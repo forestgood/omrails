@@ -14,6 +14,7 @@
               <%= link_to "HackHands", root_path, id: "logo" %>
               <nav>
                 <ul class="nav pull-right">
+                    <li><%= link_to "Classes", classes_path %></li>
                     <li><%= link_to "Shop", shop_path %></li>
                     <li><%= link_to "About", about_path %></li>
                     <% if user_signed_in? %>
@@ -43,6 +44,7 @@
     
         <nav>
           <ul>
+              <li><%= link_to "Classes", classes_path %></li>
               <li><%= link_to "About", about_path %></li>
               <li><%= link_to "Shop",  shop_path  %></li>
               <li><a href="http://blog.hackhands.com/">Blog</a>
